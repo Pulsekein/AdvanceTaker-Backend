@@ -6,7 +6,7 @@ const DataBase = require("./Database");
 const app = express();
 
 app.use(cors({
-    origin: ["http://localhost:3000"],
+    origin: ["https://advancetaker.netlify.app"],
     methods: ["GET", "POST", "DELETE", "PUT", "PATCH"],
     credentials: true,
     allowedHeaders: ["Content-Type", "Authorization"]
